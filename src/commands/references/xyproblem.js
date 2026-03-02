@@ -1,15 +1,14 @@
 export default {
-  name: "xyproblem",
-  description: "https://xyproblem.info/",
-  aliases: ["xyp", "xy-problem"],
-  callback: async (client, message, args) => {
+  name: 'xyproblem',
+  description: 'The XY Problem',
+  aliases: ['xy'],
+  callback: async (client, message) => {
     try {
       return message.channel.send(
-        "🧩 This might be an XY problem.\n" +
-          "Explain your actual goal, not just the solution you're trying.\n" +
-          "Give full context for better answers.\n" +
-          "https://xyproblem.info/",
+        '🎯 **XY Problem:** You are asking about your "solution" rather than the actual problem. What are you trying to *achieve*?\nhttps://xyproblem.info/',
       );
-    } catch (err) {}
+    } catch (err) {
+      console.error(err);
+    }
   },
 };

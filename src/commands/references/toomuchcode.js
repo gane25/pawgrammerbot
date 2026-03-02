@@ -1,14 +1,13 @@
 export default {
-  name: "toomuchcode",
-  description: "http://idownvotedbecau.se/toomuchcode/",
-  callback: async (client, message, args) => {
+  name: 'toomuchcode',
+  description: 'User posted an entire project',
+  callback: async (client, message) => {
     try {
       return message.channel.send(
-        "📦 Don’t dump massive code.\n" +
-          "Send a minimal reproducible example.\n" +
-          "Only include what’s necessary.\n" +
-          "http://idownvotedbecau.se/toomuchcode/",
+        '📂 **Too much code:** Please only post the specific part of the code that is causing the problem.\nhttps://idownvotedbecau.se/toomuchcode/',
       );
-    } catch (err) {}
+    } catch (err) {
+      console.error(err);
+    }
   },
 };

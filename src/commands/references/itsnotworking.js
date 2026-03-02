@@ -1,15 +1,14 @@
 export default {
-  name: "itsnotworking",
-  description: "http://idownvotedbecau.se/itsnotworking/",
-  aliases: ["notworking", "doesntwork"],
-  callback: async (client, message, args) => {
+  name: 'itsnotworking',
+  description: 'Asking for more detail than "it is not working"',
+  aliases: ['itdoesntwork', 'notworking', 'doesntwork'],
+  callback: async (client, message) => {
     try {
       return message.channel.send(
-        "⚠️ “It’s not working” isn’t enough.\n" +
-          "Explain what you expected, what happened, and the exact error.\n" +
-          "Details help us debug.\n" +
-          "http://idownvotedbecau.se/itsnotworking/",
+        "🛠️ **\"It doesn't work\" isn't enough:** Please describe *how* it isn't working. Are there errors? Is the output wrong?\nhttps://idownvotedbecau.se/itdoesntwork/",
       );
-    } catch (err) {}
+    } catch (err) {
+      console.error(err);
+    }
   },
 };

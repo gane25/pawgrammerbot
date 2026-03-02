@@ -1,14 +1,13 @@
 export default {
-  name: "nohello",
-  description: "nohello.net",
-  callback: async (client, message, args) => {
+  name: 'nohello',
+  description: 'Dont just say hello, ask the question',
+  callback: async (client, message) => {
     try {
       return message.channel.send(
-        "👋 Skip the “hi/hello”.\n" +
-          "Ask your full question in one message.\n" +
-          "More context = faster help.\n" +
-          "https://nohello.net/",
+        "👋 **Don't just say hello:** Please ask your question directly. It saves time for everyone!\nhttps://nohello.net/",
       );
-    } catch (err) {}
+    } catch (err) {
+      console.error(err);
+    }
   },
 };

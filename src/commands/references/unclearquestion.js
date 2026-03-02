@@ -1,15 +1,13 @@
 export default {
-  name: "unclearquestion",
-  description: "http://idownvotedbecau.se/unclearquestion",
-  aliases: ["unclear", "questionunclear"],
-  callback: async (client, message, args) => {
+  name: 'unclearquestion',
+  description: 'The question makes no sense',
+  callback: async (client, message) => {
     try {
       return message.channel.send(
-        "❓ Your question is unclear.\n" +
-          "State the goal, context, and expected result clearly.\n" +
-          "Clarity = better answers.\n" +
-          "http://idownvotedbecau.se/unclearquestion/",
+        "😕 **Unclear:** We don't quite understand what you are asking. Please rephrase your question more clearly.\nhttps://idownvotedbecau.se/unclearquestion/",
       );
-    } catch (err) {}
+    } catch (err) {
+      console.error(err);
+    }
   },
 };
